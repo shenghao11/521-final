@@ -6,7 +6,7 @@ dowanload pytorch_model.bin from https://drive.google.com/drive/folders/1KIH-ylW
 
 add the pytorch_model.bin in folder ..\521-final\chatbot_software\IR_qa_model
 
-in root ..\521-final\chatbot_software
+cd ..\521-final\chatbot_software
 
 streamlit run bot.py 
 
