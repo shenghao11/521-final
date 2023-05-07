@@ -1,0 +1,33 @@
+name: anly521
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - datasets
+  - jupyterlab
+  - more-itertools
+  - nltk
+  - numpy
+  - pydantic
+  - pytorch
+  - pyyaml
+  - pip
+  - pytest
+  - python
+  - jupyter
+  - tqdm
+  - transformers
+  - sentencepiece
+  - spacy
+  - scipy
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - umap-learn
+  - pip:
+    - tensorflow-macos
+    - tensorflow-metal
+    - streamlit
+    - transformers
+    - torch
+    - streamlit-chat 
