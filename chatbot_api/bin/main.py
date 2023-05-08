@@ -40,7 +40,7 @@ def generate_response(prompt):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="location of names.tsv file"
+        description="question answering"
     )
     parser.add_argument("-q", "--question", type=str,required=True, help="The question you want to ask")
     args = parser.parse_args()
