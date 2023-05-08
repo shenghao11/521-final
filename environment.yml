@@ -30,4 +30,4 @@ dependencies:
     - streamlit
     - transformers
     - torch
-    - streamlit-chat 
+    - streamlit_chat 
