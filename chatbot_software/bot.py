@@ -9,6 +9,9 @@ tokenizer = AutoTokenizer.from_pretrained("./IR_qa_model")
 model = AutoModelForSequenceClassification.from_pretrained("./IR_qa_model")
 
 def represent(text):
+  '''
+  This function convert any text to a representation based on a fine-tuning model
+  '''
   tokens = tokenizer.encode(text, add_special_tokens=True)
   input_ids = torch.tensor([tokens])
   outputs = model(input_ids)
@@ -16,16 +19,22 @@ def represent(text):
   return(cls_embedding)
 
 def similarity(text1_represent,text2_represent):
+  '''
+  This function calculate the cosine similarity between two tensors. The input should be two tensors.
+  '''
   return torch.cosine_similarity(text1_represent,text2_represent)
 
-data=pd.read_pickle('pre_encode_database.pkl')
+data=pd.read_pickle('./data/clean_data/pre_encode_database.pkl')
 
 
 def generate_response(prompt):
-   question=represent(prompt)
-   data['temporary']=data['Query_represent'].apply(lambda x: torch.tensor(x))
-   data['temporary']=data['Query_represent'].apply(lambda x: similarity(x,question))
-   return data[data['temporary']==data['temporary'].max()]['Key'].values[0]
+  '''
+  This function call the represent function, convert the question to the embedding. 
+  It then apply the similarity function to all questions in the database, and return the answer of that has the highest score.
+  '''
+  question=represent(prompt)
+  data['temporary']=data['Query_represent'].apply(lambda x: similarity(x,question))
+  return data[data['temporary']==data['temporary'].max()]['Key'].values[0]
 
 st.title("NLP Question Answering Bot")
 if 'generated' not in st.session_state:

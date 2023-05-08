@@ -1,0 +1,26 @@
+,label,question,answer
+44,26,List some open-source libraries for NLP,"The popular libraries are NLTK (Natural Language ToolKit), SciKit Learn, Textblob, CoreNLP, spaCY, Gensim."
+47,38,What is CBOW,"CBOW or continuous bag of words is a model that tries to predict the target word from the available source context words, i.e., the surrounding words. Here the context words are taken into account as multiple words for a given target word."
+4,9,What is sentiment analysis?,"Sentiment analysis is the process of using NLP techniques to identify and extract subjective information from text, such as opinions, attitudes, and emotions."
+55,27,What is lemmatization,"Lemmatization is a type of normalization used to group similar terms to their base form-based on the parts of speech. For example, talking and talking can be mapped to a single term, walk."
+26,2,What is a trigram?,"A trigram is a sequence of three adjacent words in a sentence, often used in NLP for language modeling or text analysis."
+64,4,What is named entity recognition NER,"Named Entity Recognition is a part of information retrieval, a method to locate and classify the entities present in the unstructured data provided and convert them into predefined categories."
+73,9,What is shallow parsing,"Shallow parsing, also known as light parsing and chunking, identifies constituents of sentences and then links them to different groups of grammatical meanings."
+10,27,What is text normalization?,"Text normalization is the process of converting text to a standardized format, such as converting all text to lowercase or removing punctuation."
+40,5,What is the order of steps in natural language understanding,The order of steps that are to be followed in Natural Language Understanding is as follows:
+108,3,we use smoothing in Naive Bayes for this reason.,What is to deal with avoiding zero probabilities because of having seen words in training data that do not appear in testing conditioned on a class?
+18,14,What is a dependency parser?,A dependency parser is an NLP tool that identifies the grammatical relationships between words in a sentence.
+62,30,How to find document similarity,Document similarity is done in NLP by converting the documents into the TF-IDF vectors form and finding their cosine similarity.
+11,27,What is lemmatization?,"Lemmatization is the process of reducing a word to its base or dictionary form (such as converting ""running"" to ""run"")."
+36,19,What is TF-IDF?,"TFIDF or Term Frequency-Inverse Document Frequency indicates the importance of a word in a set. It helps in information retrieval with numerical statistics. For a specific document, TF-IDF shows a frequency that helps identify the keywords in a document. The major use of TF-IDF in NLP is the extraction of useful information from crucial documents by statistical data. It is ideally used to classify and summarize the text in documents and filter out stop words."
+90,18,What is information extraction,Information extraction is the process of extracting useful data in a structured way from a given unstructured set of data.
+118,38,This is the name of the probability function used to model p(context words | center words) in the Skip-gram model.,softmax function
+110,19,"Thsi term weighting approach improves on TF-IDF weightings by accounting for document lengths, for instance.",BM25
+0,23,What is NLP?,NLP stands for Natural Language Processing. It's a field of artificial intelligence that focuses on teaching machines to understand human language.
+89,30,What is cosine similarity,Cosine similarity is the measure of cosine difference between two non-zero vectors in the inner product space. It is used to find the similarity between documents irrespective of their size.
+104,28,"As we increase the value of the smoothing hyperparameter in Lidstone sommthing, this is what happens in terms of the bias-variance tradeoff.",What is increase the bias of our model?
+65,26,What is NLTK,"NTLK, an abbreviation of Natural Language Toolkit, is one of NLP most popular libraries. It was written in Python and contained libraries for tokenization, classification, tagging, stemming, parsing, and semantic reasoning."
+45,2,Explain the masked language model,"Masked modeling is an example of autoencoding language modeling. Here the output is predicted from corrupted input. By this model, we can predict the word from other words present in the sentences."
+31,2,What is a language generation model?,"A language generation model is an NLP tool that generates text based on a given input, such as a prompt or a set of keywords."
+70,9,What is dependency parsing,"Dependency parsing, also called syntactic parsing, recognizes a dependency parse of a sentence and assigns a syntax structure to a sentence. It focuses on the relationship between different words."
+42,26,What are the tools used for training NLP models,"The tools used to train NLP models are NLTK, spaCY, PyTorch-NLP, openNLP."

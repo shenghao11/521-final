@@ -1,0 +1,97 @@
+,label,question,answer
+12,27,What is stemming?,"Stemming is the process of reducing a word to its base or root form (such as converting ""running"" to ""run"")."
+15,36,What is topic modeling?,Topic modeling is an NLP technique that identifies the underlying themes or topics present in a collection of text.
+115,20,We decompose directly modeling p(e|f) into these two subproblems.,language modeling and translation modeling
+76,2,What is topic modeling,Topic modeling is a method of finding abstract topics in a document or set of documents to find hidden semantic structures.
+98,7,What is vanishing gradient problem,"In machine learning, the vanishing gradient problem is encountered when training artificial neural networks with gradient-based learning methods and backpropagation. In such methods, during each iteration of training each of the neural network's weights receives an update proportional to the partial derivative of the error function with respect to the current weight. The problem is that in some cases, the gradient will be vanishingly small, effectively preventing the weight from changing its value. In the worst case, this may completely stop the neural network from further training. As one example of the problem cause, traditional activation functions such as the hyperbolic tangent function have gradients in the range (0,1], and backpropagation computes gradients by the chain rule. This has the effect of multiplying n of these small numbers to compute gradients of the early layers in an n-layer network, meaning that the gradient (error signal) decreases exponentially with n while the early layers train very slowly."
+24,38,What is a word embedding?,A word embedding is a type of vector representation of words that is learned from a large corpus of text using deep learning techniques.
+78,21,What is perplexity,Perplexity is the condition when the system encounters something unaccountable or which is not meaningful.
+22,31,What is a stopword?,"A stopword is a common word (such as ""the"" or ""and"") that is often removed from text during preprocessing."
+97,15,What is an ensemble method,The ensemble method uses multiple learning algorithms to get enhanced and more accurate performance compared to the performance of an algorithm alone.
+56,27,What is stemming,"Stemming in NLP is also a type of normalization and is similar to lemmatization, but the difference here is that it segregates the words without the parts of speech tags. It is faster than lemmatization and can also be more accurate in some cases."
+111,19,These are the two data structures we use for a basc inverted index,vocabulary and inverted file
+30,2,What is a n-gram model?,An n-gram model is an NLP technique that uses sequences of n adjacent words (such as bigrams or trigrams) to model language.
+53,27,What is normalization,"Normalization is the process of mapping similar terms to a canonical form, i.e., a single entity."
+119,38,This is a strategy we can use to speed up training the Skip-gram model by only updating some context word representations,negative sampling
+9,4,What is a part-of-speech tagger?,"A part-of-speech tagger is an NLP tool that assigns a grammatical category (such as noun, verb, or adjective) to each word in a sentence."
+33,35,What is a text summarization tool?,"A text summarization tool is an NLP tool that summarizes a longer piece of text into a shorter summary, often used in news or article summarization."
+25,2,What is a bigram?,"A bigram is a pair of adjacent words in a sentence, often used in NLP for language modeling or text analysis."
+69,9,What is parsing,Parsing is the method of analyzing the sentence automatically based on the syntactic structure.
+28,21,What is a language model evaluation metric?,"A language model evaluation metric is a way of quantitatively measuring the performance of a language model, such as accuracy or F1 score."
+116,20,"Given n English target words nd m Russian source words, this is the total number of possible alignments.",(m+1)^n
+85,19,What is a document-term matrix,"The document-term matrix, also called the term-document matrix, is the matrix that describes the frequency of terms occurring in a document."
+5,9,What is machine translation?,Machine translation is the process of using NLP algorithms to automatically translate text from one language to another.
+91,25,What is object standardization and when is it used,Object standardization is the process of extracting useful information from abbreviations and other acronyms that can not be meaningful in lexical dictionaries.
+68,26,What is the difference between NLTK and openNLP,"There is a small difference between NTLK and openNLP, i.e., NLTK is written in python, and openNLP is based on java. One other difference is that NTLK has an option of downloading corpora by an in-built method."
+39,5,What is the NLG Natural Language Generation,"Natural Language Generation is a part of AI and generates natural language texts from structured data to produce an output. It can be seen as NLP鈥檚 reverse process, where NLP is used to understand and interpret the natural language to form data, and NLU is used to generate outputs in natural language from structured data."
+49,4,What are POS and tagging,"Parts Of Speech (POS) are the functions of the word, like a noun, verb, etc., and tagging is labeling the words present in the sentences into different parts of speech."
+35,7,What activation function is used for the forget gate of the LSTM,Sigmod Function
+16,9,What is sentiment classification?,"Sentiment classification is the process of determining the sentiment or emotion expressed in text, such as identifying whether a review is positive or negative."
+66,26,What is spaCY,spaCY is an open-source library for natural language processing on an advanced level. It is mostly used for production-level usage and uses convolutional neural network models.
+34,4,What is named entity linking?,"Named entity linking is the process of connecting named entities (such as ""New York City"" or ""Barack Obama"") to their corresponding knowledge bases, such as Wikipedia or Freebase."
+114,20,These are the parameters of the IBM Model 1 approach,translation table probabilities
+7,10,What is the difference between syntax and semantics?,"Syntax refers to the rules governing the structure of language, while semantics refers to the meaning of language."
+43,38,List the models to reduce the dimensionality of data,"The commonly used models are TF-IDF, Word2vec/Glove, LSI, Topic Modelling, Elmo Embeddings."
+72,9,What is constituency parsing,Constituency parsing is a method of division of sentences into sub-parts or constituencies. It aims to extract a constituency-based parse tree from the constituencies of the sentences.
+67,26,What is openNLP,"openNLP is a java based library used for Natural Language Processing, and it supports most of the NLP tasks such as tokenization, language detection, etc."
+83,38,What is word2vec,Word2vec is a collection of models that are used to generate word embeddings. These models are trained to reconstruct the linguistic context of the words in the corpus.
+27,21,What is perplexity in NLP?,Perplexity is a metric used to measure the effectiveness of a language model in predicting the likelihood of a sequence of words.
+19,12,What is chunking?,Chunking is the process of grouping together adjacent words in a sentence based on their part of speech or other linguistic features.
+96,29,What is sequence learning,Sequence learning is a method of learning where both input and output are sequences.
+101,28,"In traditional statistical modeling, the basic strategy we use to estimate probabilities is this.",counting
+8,10,What is a corpus?,"A corpus is a large, structured collection of text used for linguistic analysis and research."
+13,33,What is text classification?,"Text classification is the process of assigning categories or labels to text, such as classifying news articles by topic."
+84,38,What is doc2vec,Doc2vec is one of the unsupervised algorithms used to generate vectors of sentences or documents irrespective of their length.
+3,11,What is a chatbot?,"A chatbot is an AI program designed to simulate conversation with human users, often for customer service or support purposes."
+17,39,What is word sense disambiguation?,"Word sense disambiguation is the process of identifying the correct meaning of a word with multiple meanings, such as ""bank"" (which can refer to a financial institution or the side of a river)."
+38,19,Explain the term frequency-inverse document frequency,"TF-IDF helps ascertain the importance of a word in a data set. In NLP, TF-IDF indicates the frequency of different keywords, which helps extract, classify and summarise the text. It also helps remove stop words. When the TF-IDF is high, the frequency of the term is low."
+93,16,How can we estimate the entropy of the English language,N-grams can estimate the entropy of the English language. The entropy of a letter is calculated by knowing the entropy of all the previous letters.
+6,4,What is named entity recognition?,"Named entity recognition is the process of identifying and classifying specific entities in text, such as names of people, organizations, or locations."
+77,9,What is text summarization,"Text summarization in NLP is the process of conversion of large pieces of text to short text. It is intended to summarize the given text, keeping the main contents and overall meaning intact."
+105,28,The name of the type of distribution we wish to find when we use Bayes Theorem is this.,posterior distribution
+95,6,What is PAC learning,Probably Approximately Correct learning is a mathematical analysis framework. It is used for the analysis of generalization error of the learning algorithms.
+54,27,What is keyword normalization,Keyword normalization is an NLP technique where we apply normalization on a word to condense it to its most basic form.
+50,1,What is n-gram,N-grams are the continuous sequence (similar to the power set in number theory) of n-tokens of a given text.
+80,24,What is noise removal,"Noise removal is one of the NLP techniques i.e., used to remove pieces of text from the corpus that is not necessary as they can hinder our text analysis."
+46,2,What is the bag of words model,"The Bagofwords model is used for information retrieval. Here the text is represented as a multiset, i.e., a bag of words. We don’t consider grammar and word order, but we surely maintain the multiplicity."
+81,38,What is word embedding,Word embedding is the process of mapping words from the vocabulary to vectors of real numbers.
+61,30,How to find sentence similarity,Sentence similarity is done in NLP by finding the cosine similarity between the two sentences. It can be done by finding the cosine angle between the vectors of two sentences in the inner product space.
+117,38,This is the difference between sparse and dense vectors,"What is sparse vectors are mostly zero-valued, and dense vectors are mostly non-zero-valued."
+79,2,What is the Naive Bayes algorithm and where is it used,Naive Bayes algorithm is used to predict tags of text by calculating the probability for each tag for the text and then providing the one with the highest probability.
+94,0,What is Latent Dirichlet Allocation,"Latent Dirichlet Allocation is a topic modeling method where each topic represents a set of words, and every document is made of various words."
+41,9,List any real-world application of NLP,"The most used real-world application of NLP is speech recognition. Examples of speech recognition applications are Amazon Alexa, Google Assistant, Siri, HP Cortana."
+58,27,What is tokenization,Tokenization is the process of breaking down large sets of text into small parts for easy readability and understanding. Each small part is referred to as 鈥榯ext鈥?and provides a piece of meaningful information.
+48,8,What is TF-IDF and what are its uses,TF-IDF is an abbreviation for the term frequency-inverse documentary frequency. It is used to provide a numeric value to a word to show how important it is in the document or a corpus.
+88,17,What is a flexible string matching,Flexible string matching or fuzzy string matching is a method to find strings that are likely to match a specific pattern. It is also called approximate string matching as it uses an approximation to find patterns between strings.
+112,19,This kind of retrieval model would be a great choice if we know exactly the terms that appear in relevant documents.,boolean retrieval model
+57,10,What is ambiguity,"Ambiguity can be referred to as a condition when a word can have multiple interpretations and results in being misunderstood. Natural languages are ambiguous and can make it difficult to process NLP techniques on them, resulting in the wrong output."
+75,2,What is language modeling,Language modeling is the process of creating a probability distribution of a sequence of words. It is used to provide probability to all the words present in the sequence.
+32,21,What is a text similarity measure?,"A text similarity measure is a metric used to compare the similarity or dissimilarity of two pieces of text, often used in NLP for information retrieval or recommendation systems."
+113,20,This is the name of the algorithm we use to find the parameters of IBM Model 1.,Expectation Maximization
+59,27,What are stop words,"Stop words are the unwanted text that is present in the input. It is the process of removal of unwanted text from further processing of text, for example, a, to, can, etc."
+63,37,What are transformers,Transformers are deep learning architectures that can parallelize computations. They are used to learn long-term dependencies.
+100,28,This kind of probability considers an event after another has occurred.,conditional probability
+37,32,Explain stop words in NLP,"Stop words in NLP are those that text processing removes. Articles and prepositions are examples of stop words. Removing stop words is a typical pre-processing step in NLP, which even search engines follow. Some common stop words are a, an, the, why, how, am, is and at."
+29,38,What is a bag-of-words model?,"A bag-of-words model is an NLP technique that represents text as a set of individual words, ignoring grammar and word order."
+107,10,This class of words often carries stylistic information because its use has been observed to be stable across documents for a particular author,function words
+1,9,What are some applications of NLP?,"NLP has many practical applications, including speech recognition, sentiment analysis, language translation, and chatbots."
+52,10,What is the corpus,"Corpus or corpora (plural), is a collection of the text of a similar type, for example, movie reviews, social media posts, etc."
+21,27,What is a tokenization?,Tokenization is the process of breaking a sentence or text into individual words or tokens.
+2,23,What is the difference between NLP and AI?,NLP is a subfield of AI that focuses on teaching machines to understand and process human language.
+23,38,What is a vector representation of words?,A vector representation of words is a mathematical representation of words that allows NLP algorithms to perform mathematical operations on text.
+103,28,Zipf's Law is relevant in NLP because of this/these reason(s).,What is: Zipf's Law is an empirical finding about the frequency distribution of words in language. It's relevant in NLP because it tells us that: (1) many words occur with low frequency (hard to estimate statistics) (2) words with low frequency can be more informative than those with highfrequency.
+99,7,How to solve the vanishing gradient problem,"Avoid using activation functions that have very low or zero derivatives, such as the sigmoid function. Instead, consider using activation functions that have a wider range of derivatives, such as the ReLU function or its variants."
+87,38,What is GloVe,The gloVe based on their pronunciation.
+109,19,"This is why we call an inverted index ""inverted""","What is because the relationship between document and term is inverted: given a term, what documents are associated with it?"
+74,9,What are the differences between dependency parsing and shallow parsing,"The difference between shallow parsing and dependency parsing is that shallow parsing is the parsing of limited parts of the information. In contrast, dependency parsing is the process of finding relations between all the different words."
+86,19,What is wordnet,Wordnet can be described as a database created to store words from different languages connected by their semantic relationships.
+82,26,What are the word embedding libraries,The libraries that provide word embedding features are spaCY and genism.
+120,38,This is an assumption made by a feedforward network that is not appropriate for processing text.,What is the assumption that the order of the words does not matter?
+20,13,What is a co-reference resolution?,"Co-reference resolution is the process of identifying when two or more words or phrases in a sentence refer to the same entity, such as ""he"" and ""John""."
+60,30,How to find word similarity,Word similarity in NLP is done by calculating the word vectors of the words in the vector space and then calculating the similarity on a scale of 0 to 1.
+71,9,What is semantic parsing,Semantic parsing is a method of conversion of natural language into machine-understandable form.
+106,22,This performance measure can be misleading when working with unbalanced data,accuracy
+14,4,What is a named entity?,"A named entity is a specific object, person, or location referred to in text, such as ""New York City"" or ""Barack Obama""."
+92,34,What is text generation and when is it done,Text-generation is the process of generating natural language texts automatically in response to the communication. It uses artificial intelligence and computational linguistic knowledge to perform this task.
+51,38,What is skip-gram,Skip gram is an unsupervised learning technique used to find the most related words to a target word. It is a reverse process of the continuous bag of words model.
+102,28,The three axioms of probability is this,The three axioms of probability are: (1) Probabilities are nonnegative. (2) Probabilities are additive (3) Probabilities sum to 1 over their sample space
