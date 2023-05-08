@@ -1,14 +1,12 @@
 from transformers import AutoTokenizer,AutoModelForSequenceClassification
 import torch
 import pandas as pd
-import numpy as np
+
 import argparse
 import logging
 logger = logging.getLogger(__name__)
-tokenizer = AutoTokenizer.from_pretrained("../IR_qa_model")
-model = AutoModelForSequenceClassification.from_pretrained("../IR_qa_model")
-
-
+tokenizer = AutoTokenizer.from_pretrained("IR_qa_model")
+model = AutoModelForSequenceClassification.from_pretrained("IR_qa_model")
 
 
 def represent(text):
@@ -27,7 +25,7 @@ def similarity(text1_represent,text2_represent):
   '''
   return torch.cosine_similarity(text1_represent,text2_represent)
 
-data=pd.read_pickle('../data/clean_data/pre_encode_database.pkl')
+data=pd.read_pickle('data/clean_data/pre_encode_database.pkl')
 
 
 def generate_response(prompt):
@@ -47,4 +45,4 @@ if __name__ == "__main__":
     parser.add_argument("-q", "--question", type=str,required=True, help="The question you want to ask")
     args = parser.parse_args()
     logger.info("The chat has started")
-    generate_response(args.question)
+    print(generate_response(args.question))
