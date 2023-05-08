@@ -31,6 +31,15 @@ streamlit run bot.py
 python main.py -q <questions>
 ```
 
+## Example conversation
+```
+You: What are n-grams
+Bot: N-grams are the continuous sequence (similar to the power set in number theory) of n-tokens of a given text.
+You: What are stop words
+Bot: Stop words are the unwanted text that is present in the input. It is the process of removal of unwanted text from further processing of text, for example, a, to, can, etc.
+```
+
+
 # FAQ
 ## Why not use the embeddings from the last five layers of the original bert?
 Traditionally, the average of results from the last five hidden layers has been used to obtain meaningful sentence embeddings. However, after experimenting with this approach and comparing it to the results obtained from a fine-tuned model, we found that fine-tuning provided superior performance.
